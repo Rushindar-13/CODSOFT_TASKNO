@@ -1,188 +1,188 @@
-# \# Number Guessing Game
+\# Number Guessing Game
 
-# 
 
-# \## Project Overview
 
-# 
+\## Project Overview
 
-# The Number Guessing Game is a Java console-based game where the computer randomly generates a number between 1 and 100. The player has to guess the number within a limited number of attempts.
 
-# 
 
-# After each guess, the program gives a hint indicating whether the guessed number is too high or too low.
+The Number Guessing Game is a Java console-based game where the computer randomly generates a number between 1 and 100. The player has to guess the number within a limited number of attempts.
 
-# 
 
-# \## Objectives
 
-# 
+After each guess, the program gives a hint indicating whether the guessed number is too high or too low.
 
-# \* Generate a random number between 1 and 100.
 
-# \* Allow the user to enter guesses.
 
-# \* Provide feedback for each guess.
+\## Objectives
 
-# \* Limit the number of attempts.
 
-# \* Allow the player to play multiple rounds.
 
-# \* Calculate a score based on the number of attempts used.
+\* Generate a random number between 1 and 100.
 
-# 
+\* Allow the user to enter guesses.
 
-# \## Features
+\* Provide feedback for each guess.
 
-# 
+\* Limit the number of attempts.
 
-# \* Random number generation
+\* Allow the player to play multiple rounds.
 
-# \* User input using Scanner
+\* Calculate a score based on the number of attempts used.
 
-# \* Hints for high and low guesses
 
-# \* Maximum of 7 attempts per round
 
-# \* Multiple rounds
+\## Features
 
-# \* Score calculation
 
-# \* Input validation
 
-# \* Final game summary
+\* Random number generation
 
-# 
+\* User input using Scanner
 
-# \## Technologies Used
+\* Hints for high and low guesses
 
-# 
+\* Maximum of 7 attempts per round
 
-# \* Java
+\* Multiple rounds
 
-# \* Java Scanner
+\* Score calculation
 
-# \* Java Random
+\* Input validation
 
-# \* Object-Oriented Programming basics
+\* Final game summary
 
-# 
 
-# \## How to Run
 
-# 
+\## Technologies Used
 
-# 1\. Open the Task1 folder in the terminal.
 
-# 2\. Compile the program:
 
-# 
+\* Java
 
-# ```bash
+\* Scanner
 
-# javac NumberGame.java
+\* Random
 
-# ```
+\* Object-Oriented Programming basics
 
-# 
 
-# 3\. Run the program:
 
-# 
+\## How to Run
 
-# ```bash
 
-# java NumberGame
 
-# ```
+1\. Open the Task1 folder in the terminal.
 
-# 
+2\. Compile the program:
 
-# 4\. Enter your guesses when prompted.
 
-# 
 
-# \## Game Rules
+```bash
 
-# 
+javac NumberGame.java
 
-# \* The computer generates a random number between \*\*1 and 100\*\*.
+```
 
-# \* The player gets \*\*7 attempts\*\* to guess the number.
 
-# \* If the guess is lower than the secret number, the program displays \*\*Too Low\*\*.
 
-# \* If the guess is higher than the secret number, the program displays \*\*Too High\*\*.
+3\. Run the program:
 
-# \* If the guess is correct, the player wins the round.
 
-# \* The player can choose to play another round.
 
-# 
+```bash
 
-# \## Sample Output
+java NumberGame
 
-# 
+```
 
-# ```text
 
-# ========================================
 
-# &#x20;       NUMBER GUESSING GAME
+4\. Enter your guesses when prompted.
 
-# ========================================
 
-# 
 
-# I have selected a number between 1 and 100.
+\## Game Rules
 
-# You have 7 attempts.
 
-# 
 
-# Enter your guess: 50
+\* The computer generates a random number between \*\*1 and 100\*\*.
 
-# Too Low!
+\* The player gets \*\*7 attempts\*\* to guess the number.
 
-# 
+\* If the guess is lower than the secret number, the program displays \*\*Too Low\*\*.
 
-# Enter your guess: 75
+\* If the guess is higher than the secret number, the program displays \*\*Too High\*\*.
 
-# Too High!
+\* If the guess is correct, the player wins the round.
 
-# 
+\* The player can choose to play another round.
 
-# Enter your guess: 63
 
-# Correct! You guessed the number.
 
-# ```
+\## Sample Output
 
-# 
 
-# \## Project Structure
 
-# 
+```text
 
-# ```text
+========================================
 
-# Task1/
+&#x20;       NUMBER GUESSING GAME
 
-# ├── NumberGame.java
+========================================
 
-# ├── README.md
 
-# └── .gitignore
 
-# ```
+I have selected a number between 1 and 100.
 
-# 
+You have 7 attempts.
 
-# \## Internship
 
-# 
 
-# This project was developed as part of the \*\*CODSOFT Java Development Internship – Task 1\*\*.
+Enter your guess: 50
+
+Too Low!
+
+
+
+Enter your guess: 75
+
+Too High!
+
+
+
+Enter your guess: 63
+
+Correct! You guessed the number.
+
+```
+
+
+
+\## Project Structure
+
+
+
+```text
+
+Task1/
+
+├── NumberGame.java
+
+├── README.md
+
+└── .gitignore
+
+```
+
+
+
+\## Internship
+
+
+
+This project was developed as part of the \*\*CODSOFT Java Development Internship – Task 1\*\*.
 
 
 
